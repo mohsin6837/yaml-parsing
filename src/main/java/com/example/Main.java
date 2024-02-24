@@ -18,6 +18,7 @@ public class Main {
         Customer customer = yaml.load(inputStream);
         System.out.println(customer.getLastName());
         System.out.println(customer.getAge());
+        System.out.println(customer.getLastName);
     }
 }
 
