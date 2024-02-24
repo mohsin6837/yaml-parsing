@@ -17,6 +17,7 @@ public class Main {
         InputStream inputStream = Main.class.getClassLoader().getResourceAsStream("customer.yaml");
         Customer customer = yaml.load(inputStream);
         System.out.println(customer.getLastName());
+        System.out.println(customer.getAge());
     }
 }
 
