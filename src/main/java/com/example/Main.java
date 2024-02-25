@@ -20,6 +20,7 @@ public class Main {
         System.out.println(customer.getLastName());
         System.out.println(customer.getAge());
         System.out.println(customer.getLastName);
+        System.out.println("Happy Coding");
     }
 }
 
